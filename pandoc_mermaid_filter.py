@@ -10,7 +10,7 @@ from pandocfilters import get_filename4code, get_caption, get_extension
 # Environment variables with fallback values
 MERMAID_BIN = os.path.expanduser(os.environ.get('MERMAID_BIN', 'mermaid'))
 PUPPETEER_CFG = os.environ.get('PUPPETEER_CFG', None)
-SCALE = os.environ.get('MERMAID_SCALE', 1)
+SCALE = os.environ.get('SCALE', 1)
 
 
 def mermaid(key, value, format_, _):
