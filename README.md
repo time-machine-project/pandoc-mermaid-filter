@@ -1,5 +1,7 @@
 # pandoc-mermaid-filter
 
+**This is a fork of [timofurrer/pandoc-mermaid-filter](timofurrer/pandoc-mermaid-filter) that adds additional command line arguments**
+
 Pandoc filter which converts mermaid code blocks to mermaid images.
 
 ````
@@ -41,6 +43,8 @@ The mermaid binary must be in your `$PATH` or can be set with the
 
 By setting the environment variable `PUPPETEER_CFG`, you can pass a custom
 configuration file to `mermaid` (`-p` option).
+
+By setting the environment variable `SCALE` to a number, you can pass a custom scale to `mermaid` (`-s` option).
 
 ## But there is ...
 
